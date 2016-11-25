@@ -521,6 +521,14 @@ final class bbPress {
 				'show_in_nav_menus'   => true,
 				'public'              => true,
 				'show_ui'             => current_user_can( 'bbp_forums_admin' ),
+
+// XTEC ************ AFEGIT - Added element to allow hidding of option in main admin menu
+// 2014.06.16 @aginard
+
+                'show_in_menu'        => false,
+
+//************ FI
+
 				'can_export'          => true,
 				'hierarchical'        => true,
 				'query_var'           => true,
@@ -547,6 +555,14 @@ final class bbPress {
 				'show_in_nav_menus'   => false,
 				'public'              => true,
 				'show_ui'             => current_user_can( 'bbp_topics_admin' ),
+
+// XTEC ************ AFEGIT - Added element to allow hidding of option in main admin menu
+// 2014.06.16 @aginard
+
+                'show_in_menu'        => false,
+
+//************ FI
+
 				'can_export'          => true,
 				'hierarchical'        => false,
 				'query_var'           => true,
@@ -573,6 +589,14 @@ final class bbPress {
 				'show_in_nav_menus'   => false,
 				'public'              => true,
 				'show_ui'             => current_user_can( 'bbp_replies_admin' ),
+
+// XTEC ************ AFEGIT - Added element to allow hidding of option in main admin menu
+// 2014.06.16 @aginard
+
+                'show_in_menu'        => false,
+
+//************ FI
+
 				'can_export'          => true,
 				'hierarchical'        => false,
 				'query_var'           => true,

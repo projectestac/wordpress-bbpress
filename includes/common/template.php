@@ -2393,7 +2393,6 @@ function bbp_breadcrumb( $args = array() ) {
 			} else {
 				$root_url = get_post_type_archive_link( bbp_get_forum_post_type() );
 			}
-
 			// Add the breadcrumb
 			$crumbs[] = '<a href="' . esc_url( $root_url ) . '" class="bbp-breadcrumb-root">' . $r['root_text'] . '</a>';
 		}
