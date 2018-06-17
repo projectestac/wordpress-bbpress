@@ -1,9 +1,9 @@
 === bbPress ===
 Contributors: matt, johnjamesjacoby, jmdodd, netweb
 Tags: forums, discussion, support, theme, akismet, multisite
-Requires at least: 4.2
+Requires at least: 4.7
 Tested up to: 4.7
-Stable tag: 2.5.11
+Stable tag: 2.5.14
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,17 +38,18 @@ We're keeping things as small and light as possible while still allowing for gre
 1. Visit 'Settings > Forums' and adjust your configuration.
 2. Adjust the CSS of your theme as needed, to make everything pretty.
 
-== Screenshots ==
-
-1. Forums - Admin Interface
-2. Topics - Admin Interface
-3. Replies - Admin Interface
-4. Settings - Admin Interface
-5. Settings 2 - Admin Interface
-6. Themes - Admin Interface
-7. Single Forum - Default Theme
-
 == Changelog ==
+
+= 2.5.14 =
+* Improved support for PHP 7.1 and higher
+* Improved pagination for non-public post statuses
+* Fix converter row-limit boundaries
+
+= 2.5.13 =
+* Improved support for `post_parent__in` type queries
+
+= 2.5.12 =
+* Fix role initialization bug
 
 = 2.5.11 =
 * Improved support for WordPress 4.7
@@ -175,7 +176,7 @@ We're keeping things as small and light as possible while still allowing for gre
 * Improved user roles and capabilities
 * Improved theme compatibility
 * Improved BuddyPress Group Forums integration
-* Improved forums convertion tool
+* Improved forums conversion tool
 * Improved forums tools and settings
 * Improved multisite support
 * Added What's New and Credits pages
