@@ -77,6 +77,8 @@ function bbp_map_topic_meta_caps( $caps = array(), $cap = '', $user_id = 0, $arg
 			} else {
 
 				// Get the post
+                // XTEC AFEGIT ** Add control of undefined array @svallde2
+                $args[0] = isset($args[0])?$args[0]:$args;
 				$_post = get_post( $args[0] );
 				if ( !empty( $_post ) ) {
 
